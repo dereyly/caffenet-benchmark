@@ -133,7 +133,7 @@ There difference in filters (main, 5x5 -> 3x3 + 3x3 or 1x5+5x1) and solver.
 | Name    | Accuracy      | LogLoss | Comments  |
 | -------|---------:| -------:|:-----------|
 |  Base |0.527| 2.09 |  |
-|  Base_dereyly |0.550| 1.93 | PreLU + base_lr=0.035, exp lr_policy, 160K iters, 5x5->3x3+3x3 |
+|  Base_dereyly |0.550| 1.93 | PreLU + base_lr=0.035, exp lr_policy, 160K iters, 5x5->3x3+1x1+3x3+1x1 |
 |  Base_dereyly 3x1|**0.553**| **1.92** | PreLU + base_lr=0.035, exp lr_policy, 160K iters, 5x5->1x3+1x3+3x1+1x3 |
 |  Base_dereyly 5x1|0.540| 2.00 | PreLU + base_lr=0.035, exp lr_policy, 160K iters, 5x5->1x5+5x1 |
 
